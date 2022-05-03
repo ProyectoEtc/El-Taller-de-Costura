@@ -1,0 +1,14 @@
+sudo apt-get update
+sudo apt-get upgrade
+
+sudo apt isntall curl
+curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
+
+sudo apt install nodejs -y
+sudo apt install npm -y
+sudo npm -g install n -y
+
+sudo n lts
+sudo n
+
+sudo npm install -g @angular/cli
